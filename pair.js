@@ -54,24 +54,24 @@ router.get('/', async (req, res) => {
                 let data = fs.readFileSync(__dirname + `/temp/${id}/creds.json`);
                 await delay(800);
                let b64data = Buffer.from(data).toString('base64');
-               let session = await Pair_Code_By_Malvin_Tech.sendMessage(Pair_Code_By_Malvin_Tech.user.id, { text: 'Malvin~' + b64data });
+               let session = await Pair_Code_By_Malvin_Tech.sendMessage(Pair_Code_By_Malvin_Tech.user.id, { text: '𝚂𝙰𝚂𝙸~' + b64data });
 
                let MALVIN_XD_TEXT = `
-      MALVIN-XD V4 Sucess Scan Session 
+      ＳΞＳＹ ＭＤ Sucess Scan Session 
 
-> Bot repo: Https://GitHub.com/XdKing2/MALVIN-XD 
+> Bot repo: Https://GitHub.com/sathsidu99/SESY-MD
 
-> Owner: *Malvin King*
+> Owner: *SATHSIDU AGRESARA*
 
-> BotName: *MALVIN XD* 
+> BotName: *ＳΞＳＹ ＭＤ* 
 
 
 
 *Follow support for updates*
-https://whatsapp.com/channel/0029VbA6MSYJUM2TVOzCSb2A
+https://whatsapp.com/channel/0029Vb5KcUHJuyAGVPAed21a
 
 
-> _Regards Malvin King_`
+> _Regards Sathsidu Agresara_`
 
  await Pair_Code_By_Malvin_Tech.sendMessage(Pair_Code_By_Malvin_Tech.user.id,{text:MALVIN_XD_TEXT},{quoted:session})
  
