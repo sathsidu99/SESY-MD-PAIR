@@ -1,5 +1,5 @@
 {
-    "description": "malvin-sessions",
+    "description": "sesy-md-pair",
     "main": "./malvin.js",
   "engines" : { 
     "npm" : ">=9.7.2",
@@ -10,7 +10,7 @@
     "stop": "pm2 stop PAIR",
     "restart": "pm2 restart PAIR"
     },
-  "author": "Malvin Tech",
+  "author": "Sathsidu Agresara",
   "license": "GPL-3.0 license",
   "dependencies": {
     "@whiskeysockets/baileys": "^6.5.0",
