@@ -1,9 +1,9 @@
 {
-    "name": "malvin-xpair",
-    "description": "newly designed session by Malvin",
+    "name": "SESY-MD-PAIR",
+    "description": "newly designed session by Sathsidu",
     "logo": "https://i.ibb.co/3MZpcvr/2fec156e2320d733.jpg",
-    "repository": "https://github.com/XdKing2/malvin-xpair",
-    "keywords": ["malvin-xpair"],
+    "repository": "https://github.com/sathsidu99/SESY-MD-PAIR",
+    "keywords": ["SESY-MD-PAIR"],
     "success_url": "/", 
     "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" } ],
     "env": {      
